@@ -1,0 +1,16 @@
+body {
+  padding-top: 120px !important;
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-nav a {
+  font-size: 1.2em;
+  font-weight: 200;
+}
+
+#navLogo {
+  max-width: 150px;
+}
