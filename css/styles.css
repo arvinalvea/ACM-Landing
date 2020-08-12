@@ -1,25 +1,70 @@
-body {
-  padding-top: 80px !important;
+* {
+  box-sizing: border-box;
+  font-family: "gilroy-extrabold", san-serif;
 }
 
-.navbar-brand {
-  padding: 0 !important;
+nav > ul > a:hover {
+  text-decoration: none;
 }
 
-.navbar {
-  padding: 0;
+nav {
+  display: flex;
+  width: 100%;
+  height: 60px;
 }
 
-.navbar-nav a {
-  font-size: 1.1em;
-  font-weight: 200;
-  margin-left: 10px;
+nav img {
+  height: 60px;
+  width: 120px;
 }
 
-.navbar-toggler {
-  margin-right: 10px;
+nav ul {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
 }
 
-#navLogo {
-  max-width: 150px;
+nav li {
+  margin-right: 12px;
+  text-decoration: none;
+  list-style: none;
+  font-size: 0.6em;
+  color: #959595;
+  letter-spacing: 0.2px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+  /* border: black 2px solid; */
+}
+
+.hero h1,
+.hero p {
+  text-align: left;
+}
+
+.hero p {
+  font-family: "gilroy-light", san-serif;
+  font-size: 1em;
+  color: #b8b8b8;
+}
+
+.headingImage {
+  background-image: url("../img/christian-mackie-6BJu73-UJpg-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 330px;
+  position: relative;
+  z-index: -1;
+}
+
+.ownerHighlight {
+  background-color: #1d1d1d;
+  width: 100%;
+  height: 80vh;
 }
