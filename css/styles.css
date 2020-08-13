@@ -123,3 +123,9 @@ nav li {
   bottom: -200px;
   right: 65px;
 }
+
+.inspirations img {
+  width: 300px;
+  height: 400px;
+  object-fit: cover;
+}
