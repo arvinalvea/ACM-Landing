@@ -177,3 +177,11 @@ nav li {
   position: absolute;
   top: 165px;
 } */
+
+#footerLogo {
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+  display: block;
+  margin: 20px auto;
+}
