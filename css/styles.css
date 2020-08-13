@@ -199,7 +199,10 @@ nav li {
 }
 
 .footer > ul > li {
-  font-size: 0.8em;
-  color: #b8b8b8;
   margin-bottom: 5px;
+}
+
+.footer a {
+  font-size: 0.9em;
+  color: #b8b8b8;
 }
