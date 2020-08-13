@@ -124,8 +124,17 @@ nav li {
   right: 65px;
 }
 
+.inspirations {
+  background-color: #f5f5f5;
+}
+
 .inspirations img {
   width: 300px;
   height: 400px;
   object-fit: cover;
+}
+
+.photoCaption {
+  font-size: 0.9em;
+  color: #b8b8b8;
 }
