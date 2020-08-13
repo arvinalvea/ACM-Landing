@@ -70,13 +70,56 @@ nav li {
 }
 
 .ownerPhoto {
-  background-image: url("../img/evan-dvorkin-ro4iNQJmZLY-unsplash.jpg");
+  background-image: url("../img/man.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 100%;
-  height: 400px;
+  width: 80%;
+  height: 300px;
   padding-top: 50px;
   position: relative;
   /* z-index: -1; */
+}
+
+.ownerPhoto h3 {
+  font-size: 1.2em !important;
+  position: absolute;
+  bottom: -190px;
+  left: 100px;
+}
+
+.ownerPhoto p {
+  font-family: "gilroy-light", san-serif;
+}
+
+#ownerName {
+  color: white;
+  font-size: 0.8em;
+  position: absolute;
+  bottom: -260px;
+  left: 100px;
+}
+
+#jobTitle {
+  font-size: 0.8em;
+  position: absolute;
+  bottom: -285px;
+  left: 100px;
+  line-height: 13px;
+}
+
+#quote1 {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  bottom: 16px;
+  left: 81px;
+}
+
+#quote2 {
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  bottom: -200px;
+  right: 65px;
 }
