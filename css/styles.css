@@ -180,8 +180,26 @@ nav li {
 
 #footerLogo {
   width: 160px;
-  height: 100px;
+  height: 75px;
   object-fit: cover;
   display: block;
   margin: 20px auto;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer > ul > li {
+  font-size: 1em;
+  color: #b8b8b8;
+  margin-bottom: 5px;
 }
