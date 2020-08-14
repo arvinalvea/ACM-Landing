@@ -22,10 +22,11 @@ nav ul {
   display: flex;
   align-items: center;
   margin-bottom: 0;
+  margin-left: auto;
 }
 
 nav li {
-  margin-right: 25px;
+  margin-right: 10px;
   text-decoration: none;
   list-style: none;
   font-size: 0.6em;
@@ -53,20 +54,18 @@ nav li {
 }
 
 .headingImage {
-  background-image: url("../img/christian-mackie-6BJu73-UJpg-unsplash.jpg");
+  background-image: url("../img/christian-mackie-6BJu73-UJpg-unsplash-min.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
   height: 330px;
-  position: relative;
-  z-index: -1;
 }
 
 .ownerHighlight {
   background-color: #1d1d1d;
   width: 100%;
-  height: 80vh;
+  height: 70vh;
 }
 
 .ownerPhoto {
@@ -74,69 +73,65 @@ nav li {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  width: 80%;
+  width: 85%;
   height: 300px;
-  padding-top: 50px;
   position: relative;
-  /* z-index: -1; */
+  margin-left: 5px;
 }
 
-.ownerPhoto h3 {
+/* .ownerPhoto h3 {
   font-size: 1.2em !important;
   position: absolute;
   bottom: -190px;
   left: 100px;
+} */
+
+.quote {
+  position: absolute;
+  width: 65%;
+  top: 250px;
+  right: 15px;
+  z-index: 1;
 }
 
-.ownerPhoto p {
-  font-family: "gilroy-light", san-serif;
+.quote h3 {
+  font-size: 1em;
+  color: white;
 }
 
 #ownerName {
+  font-family: "gilroy-light", san-serif;
   color: white;
   font-size: 0.8em;
-  position: absolute;
-  bottom: -260px;
-  left: 100px;
 }
 
 #jobTitle {
+  font-family: "gilroy-light", san-serif;
+  color: #b8b8b8;
   font-size: 0.8em;
-  position: absolute;
-  bottom: -285px;
-  left: 100px;
   line-height: 13px;
-}
-
-#quote1 {
-  color: white;
-  font-size: 2em;
-  position: absolute;
-  bottom: 14px;
-  left: 81px;
-}
-
-#quote2 {
-  color: white;
-  font-size: 2em;
-  position: absolute;
-  bottom: -200px;
-  right: 65px;
 }
 
 .inspirations {
   background-color: #f5f5f5;
 }
 
+.inspirations h1 {
+  margin-left: 20px;
+}
+
 .inspirations img {
-  width: 300px;
+  width: 80%;
   height: 400px;
   object-fit: cover;
+  margin: 0 auto;
+  display: block;
 }
 
 .photoCaption {
   font-size: 0.9em;
   color: #b8b8b8;
+  text-align: center;
 }
 
 .contactBanner {
@@ -209,4 +204,26 @@ nav li {
 
 .footer p {
   font-size: 0.5em;
+}
+
+/* MEDIA QUERIES */
+
+@media (min-width: 768px) {
+  .headingImage,
+  .secondImageBanner {
+    height: 450px;
+  }
+
+  .ownerPhoto {
+    margin-left: 100px;
+    margin-top: 70px;
+    height: 350px;
+  }
+
+  .quote {
+    font-size: 1.1em;
+    width: 63%;
+    top: 71px;
+    left: -225px;
+  }
 }
