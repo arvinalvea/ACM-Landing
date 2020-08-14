@@ -3,6 +3,10 @@
   font-family: "gilroy-extrabold", san-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 nav > ul > a:hover {
   text-decoration: none;
 }
