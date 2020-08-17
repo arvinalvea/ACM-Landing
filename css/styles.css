@@ -83,13 +83,6 @@ nav li {
   margin-left: 5px;
 }
 
-/* .ownerPhoto h3 {
-  font-size: 1.2em !important;
-  position: absolute;
-  bottom: -190px;
-  left: 100px;
-} */
-
 .quote {
   position: absolute;
   width: 65%;
@@ -169,14 +162,6 @@ nav li {
   z-index: -1;
 }
 
-/* .contactBanner img {
-  width: 200px;
-  height: 200px;
-  object-fit: cover;
-  position: absolute;
-  top: 165px;
-} */
-
 #footerLogo {
   width: 160px;
   height: 75px;
@@ -250,5 +235,14 @@ nav li {
 
   .projectThumb {
     flex-basis: 33%;
+  }
+
+  .contactBanner {
+    height: 300px;
+  }
+
+  .contactBanner h1 {
+    align-self: start;
+    margin-left: 3.5em;
   }
 }
