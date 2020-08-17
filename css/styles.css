@@ -259,6 +259,7 @@ nav li {
 
   .footer {
     flex-direction: row;
+    height: 200px;
   }
 
   #footerLogo {
