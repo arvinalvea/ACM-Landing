@@ -242,17 +242,26 @@ nav li {
     justify-content: start;
     height: 300px;
     flex-wrap: nowrap;
-    background-color: cadetblue;
   }
 
   .contactBanner h1 {
     align-self: center;
     margin-left: 3.5em;
+    margin-right: 3em;
   }
 
   .contactBannerImg {
     height: 200px;
     width: 200px;
+    margin-right: 10px;
     align-self: center;
+  }
+
+  .footer {
+    flex-direction: row;
+  }
+
+  #footerLogo {
+    margin-left: 0;
   }
 }
