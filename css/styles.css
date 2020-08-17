@@ -272,6 +272,10 @@ nav li {
 }
 
 @media (min-width: 992px) {
+  .headingImage {
+    height: 500px;
+  }
+
   nav li {
     margin-right: 30px;
   }

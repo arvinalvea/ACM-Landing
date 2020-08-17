@@ -1,4 +1,6 @@
 const mq = window.matchMedia("(min-width: 768px)");
+// let image = document.getElementById("headingImage");
+// const bigImage = document.createElement("img");
 
 function removeHiddenClass(mq) {
   const contactBannerImages = document.querySelectorAll(".contactBannerImg");
@@ -15,6 +17,14 @@ function removeHiddenClass(mq) {
     }
   }
 }
+
+// bigImage.onload = function () {
+//   image.style.backgroundImage = this.style.backgroundImage;
+// };
+
+// setTimeout(function () {
+//   bigImage.style.backgroundImage = "url('../img/test.jpg')";
+// }, 50);
 
 removeHiddenClass(mq); // Call listener function at run time
 mq.addListener(removeHiddenClass); // Attach listener function on state changes
