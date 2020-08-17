@@ -266,3 +266,25 @@ nav li {
     margin-left: 0;
   }
 }
+
+@media (min-width: 992px) {
+  nav li {
+    margin-right: 30px;
+  }
+
+  .hero {
+    height: 70vh;
+  }
+
+  .hero h1 {
+    font-size: 3.5em;
+  }
+
+  .hero p {
+    width: 50%;
+  }
+
+  .ownerPhoto {
+    margin-left: 300px;
+  }
+}
