@@ -238,11 +238,21 @@ nav li {
   }
 
   .contactBanner {
+    flex-direction: row;
+    justify-content: start;
     height: 300px;
+    flex-wrap: nowrap;
+    background-color: cadetblue;
   }
 
   .contactBanner h1 {
-    align-self: start;
+    align-self: center;
     margin-left: 3.5em;
+  }
+
+  .contactBannerImg {
+    height: 200px;
+    width: 200px;
+    align-self: center;
   }
 }
