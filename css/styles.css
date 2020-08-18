@@ -36,6 +36,11 @@ nav li {
   font-size: 0.6em;
   color: #959595;
   letter-spacing: 0.2px;
+  transition: color 0.5s ease;
+}
+
+nav li:hover {
+  color: red;
 }
 
 [data-src] {
