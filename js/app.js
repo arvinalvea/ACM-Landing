@@ -1,6 +1,9 @@
 const mq = window.matchMedia("(min-width: 768px)");
-// let image = document.getElementById("headingImage");
-// const bigImage = document.createElement("img");
+const images = document.querySelectorAll("[data-src");
+const imgOptions = {
+  threshold: 0,
+  rootMargin: "0px 0px 500px 0px",
+};
 
 function removeHiddenClass(mq) {
   const contactBannerImages = document.querySelectorAll(".contactBannerImg");
@@ -18,13 +21,28 @@ function removeHiddenClass(mq) {
   }
 }
 
-// bigImage.onload = function () {
-//   image.style.backgroundImage = this.style.backgroundImage;
-// };
+function preloadImage(img) {
+  const src = img.getAttribute("data-src");
+  if (!src) {
+    return;
+  }
+  img.src = src;
+}
 
-// setTimeout(function () {
-//   bigImage.style.backgroundImage = "url('../img/test.jpg')";
-// }, 50);
+const imgObserver = new IntersectionObserver((entries, imgObserver) => {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      preloadImage(entry.target);
+      imgObserver.unobserve(entry.target);
+    }
+  });
+}, imgOptions);
+
+images.forEach((image) => {
+  imgObserver.observe(image);
+});
 
 removeHiddenClass(mq); // Call listener function at run time
 mq.addListener(removeHiddenClass); // Attach listener function on state changes
