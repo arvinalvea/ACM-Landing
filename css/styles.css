@@ -260,8 +260,8 @@ nav li {
   }
 
   .contactBannerImg {
-    height: 200px;
-    width: 250px;
+    height: 150px;
+    max-width: 250px;
     margin-right: 10px;
     align-self: center;
   }
@@ -299,5 +299,10 @@ nav li {
 
   .ownerPhoto {
     margin-left: 300px;
+  }
+
+  .contactBannerImg {
+    height: 200px;
+    width: 250px;
   }
 }
