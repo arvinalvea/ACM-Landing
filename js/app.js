@@ -2,7 +2,7 @@ const mq = window.matchMedia("(min-width: 768px)");
 const images = document.querySelectorAll("[data-src");
 const imgOptions = {
   threshold: 0,
-  rootMargin: "0px 0px 500px 0px",
+  rootMargin: "0px 0px 700px 0px",
 };
 
 function removeHiddenClass(mq) {

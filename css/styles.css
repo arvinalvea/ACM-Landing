@@ -139,6 +139,21 @@ nav li:hover {
   display: block;
 }
 
+.projectThumb.is-visible {
+  opacity: 1;
+  animation-name: moveToLeft;
+  animation-duration: 1s;
+}
+
+.projectThumb {
+  /* testing */
+  opacity: 0;
+  /* transform: translateX(4em);
+  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1),
+    opacity 0.3s 0.25s ease-out; */
+  will-change: opacity;
+}
+
 .photoCaption {
   font-size: 0.9em;
   color: #b8b8b8;
@@ -212,6 +227,20 @@ nav li:hover {
 /* ============================================= */
 /*               Media Queries                   */
 /* ============================================= */
+
+@media (min-width: 290px) {
+  .ownerHighlight {
+    background-color: #1d1d1d;
+    height: 72vh;
+  }
+}
+
+@media (min-width: 438px) {
+  .ownerHighlight {
+    background-color: #1d1d1d;
+    height: 63vh;
+  }
+}
 
 @media (min-width: 768px) {
   nav li {
@@ -319,10 +348,6 @@ nav li:hover {
 /* ============================================= */
 
 body {
-  /* margin-top: 25px;
-  font-size: 21px;
-  text-align: center; */
-
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
   -moz-animation: fadein 2s; /* Firefox < 16 */
   -ms-animation: fadein 2s; /* Internet Explorer */
@@ -375,6 +400,21 @@ body {
     opacity: 0;
   }
   to {
+    opacity: 1;
+  }
+}
+
+/* ============================================= */
+/*                 Keyframes                     */
+/* ============================================= */
+
+@keyframes moveToLeft {
+  0% {
+    transform: translateX(120px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
     opacity: 1;
   }
 }
