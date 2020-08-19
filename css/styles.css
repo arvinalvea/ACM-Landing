@@ -15,6 +15,8 @@ nav {
   display: flex;
   width: 100%;
   height: 60px;
+  background-color: white;
+  /* box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.6); */
 }
 
 nav img {
@@ -238,7 +240,7 @@ nav li:hover {
 @media (min-width: 438px) {
   .ownerHighlight {
     background-color: #1d1d1d;
-    height: 63vh;
+    height: 70vh;
   }
 }
 
