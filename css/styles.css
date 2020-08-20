@@ -51,6 +51,15 @@ nav li:hover {
   min-height: 50px;
 }
 
+.carousel-inner {
+  width: 100%;
+  height: 280px !important;
+}
+
+.carousel-item > img {
+  object-fit: cover !important;
+}
+
 .hero {
   display: flex;
   flex-direction: column;
@@ -71,7 +80,7 @@ nav li:hover {
 }
 
 .headingImage {
-  background-image: url("../img/rsz_1christian-mackie-6bju73-ujpg-unsplash_1.jpg");
+  background-image: url("../img/IMG_6762.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -184,7 +193,7 @@ nav li:hover {
 }
 
 .secondImageBanner {
-  background-image: url("../img/rsz_sven-brandsma-gz5ckogeib0-unsplash_1.jpg");
+  background-image: url("../img/IMG_2195.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
