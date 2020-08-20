@@ -51,6 +51,10 @@ nav li:hover {
   min-height: 50px;
 }
 
+.slide-content .scroller {
+  width: 1024px;
+}
+
 /* .carousel-inner {
   width: 100%;
   height: 280px !important;
@@ -200,10 +204,10 @@ nav li:hover {
 }
 
 .secondImageBanner {
-  background-image: url("../img/IMG_2195.jpg");
+  background-image: url("../img/espressoBar2.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50% 42%;
   width: 100%;
   height: 330px;
   position: relative;
