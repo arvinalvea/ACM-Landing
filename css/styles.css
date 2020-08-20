@@ -259,9 +259,23 @@ nav li:hover {
     background-color: #1d1d1d;
     height: 70vh;
   }
+
+  .carousel-item {
+    height: 375px !important;
+  }
+}
+
+@media (min-width: 505px) {
+  #firstSlide {
+    object-position: top;
+  }
 }
 
 @media (min-width: 768px) {
+  .carousel-item {
+    width: 100% !important;
+    height: 500px !important;
+  }
   nav li {
     font-size: 0.8em;
   }
