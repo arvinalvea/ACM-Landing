@@ -175,6 +175,15 @@ nav li:hover {
   transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1),
     opacity 0.3s 0.25s ease-out; */
   will-change: opacity;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  margin: 0px auto 20px auto;
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .photoCaption {
@@ -204,10 +213,10 @@ nav li:hover {
 }
 
 .secondImageBanner {
-  background-image: url("../img/espressoBar2.jpg");
+  background-image: url("../img/homeSink1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 42%;
+  background-position: 50% 87%;
   width: 100%;
   height: 330px;
   position: relative;
@@ -245,6 +254,30 @@ nav li:hover {
 
 .footer p {
   font-size: 0.5em;
+}
+
+#wholeHouseReno {
+  background-image: url("../img/rsz_senatorext1.jpg");
+}
+
+#homeAddition {
+  background-image: url("../img/rsz_saugaextshot2.jpg");
+}
+
+#bathrooms {
+  background-image: url("../img/tub1.jpg");
+  background-position: 50% 65%;
+}
+
+#kitchens {
+  background-image: url("../img/rsz_kitchen2.jpg");
+}
+
+.projectThumb p {
+  color: white;
+  font-size: 2.5em;
+  line-height: 35px;
+  font-family: "gilroy-light", san-serif;
 }
 
 /* ============================================= */
@@ -316,7 +349,7 @@ nav li:hover {
   }
 
   .projectThumb {
-    flex-basis: 33%;
+    flex-basis: 44%;
   }
 
   .contactBanner {
