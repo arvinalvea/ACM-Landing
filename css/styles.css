@@ -170,12 +170,29 @@ nav li:hover {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 200px;
+  height: 220px;
   margin: 0px auto 20px auto;
   width: 80%;
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  background-size: 100%;
+  transition: all 0.2s ease;
+}
+
+.projectThumb:hover {
+  background-size: 130%;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
 }
 
 .projectThumb a {
@@ -246,6 +263,12 @@ nav li:hover {
 .footer a {
   font-size: 0.9em;
   color: #b8b8b8;
+  transition: color 0.5s ease;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: red;
 }
 
 .footer p {
