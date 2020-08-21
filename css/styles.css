@@ -3,8 +3,13 @@
   font-family: "gilroy-extrabold", san-serif;
 }
 
+html,
 body {
-  overflow-x: hidden !important;
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+body {
   padding-top: 5em;
 }
 
