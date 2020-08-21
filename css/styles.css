@@ -17,7 +17,6 @@ nav {
   width: 100%;
   height: 60px;
   background-color: white;
-  /* box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.6); */
 }
 
 nav img {
@@ -51,15 +50,6 @@ nav li:hover {
   min-height: 50px;
 }
 
-/* .slide-content .scroller {
-  width: 1024px;
-} */
-
-/* .carousel-inner {
-  width: 100%;
-  height: 280px !important;
-} */
-
 .carousel-item {
   width: 100% !important;
   height: 275px !important;
@@ -76,7 +66,6 @@ nav li:hover {
   flex-direction: column;
   justify-content: center;
   height: 50vh;
-  /* border: black 2px solid; */
 }
 
 .hero h1,
@@ -105,7 +94,6 @@ nav li:hover {
 
 .ownerHighlight {
   display: flex;
-  /* align-items: center; */
   justify-content: center;
   background-color: #1d1d1d;
   width: 100%;
@@ -132,20 +120,20 @@ nav li:hover {
 }
 
 .quote h3 {
-  font-size: 0.7em;
+  font-size: 0.8em;
   color: white;
 }
 
 #ownerName {
   font-family: "gilroy-light", san-serif;
   color: white;
-  font-size: 0.7em;
+  font-size: 0.8em;
 }
 
 #jobTitle {
   font-family: "gilroy-light", san-serif;
   color: #b8b8b8;
-  font-size: 0.7em;
+  font-size: 0.8em;
   line-height: 15px;
 }
 
@@ -172,11 +160,7 @@ nav li:hover {
 }
 
 .projectThumb {
-  /* testing */
   opacity: 0;
-  /* transform: translateX(4em);
-  transition: transform 4s 0.25s cubic-bezier(0, 1, 0.3, 1),
-    opacity 0.3s 0.25s ease-out; */
   will-change: opacity;
   background-size: cover;
   background-repeat: no-repeat;
@@ -187,6 +171,14 @@ nav li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition: all 1s ease;
+}
+
+.projectThumb:hover {
+}
+
+.projectThumb a {
+  text-decoration: none;
 }
 
 .photoCaption {
@@ -286,13 +278,6 @@ nav li:hover {
 /* ============================================= */
 /*               Media Queries                   */
 /* ============================================= */
-
-/* @media (min-width: 290px) {
-  .ownerHighlight {
-    background-color: #1d1d1d;
-    height: 75vh;
-  }
-} */
 
 @media (min-width: 438px) {
   .ownerHighlight {
