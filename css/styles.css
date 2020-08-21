@@ -297,7 +297,7 @@ nav li:hover {
 @media (min-width: 438px) {
   .ownerHighlight {
     background-color: #1d1d1d;
-    height: 60vh;
+    height: 72vh;
   }
 
   .carousel-item {
