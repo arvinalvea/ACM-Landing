@@ -84,15 +84,6 @@ nav li:hover {
   color: #b8b8b8;
 }
 
-.headingImage {
-  background-image: url("../img/IMG_6762.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 330px;
-}
-
 .hidden {
   display: none;
 }
@@ -178,11 +169,11 @@ nav li:hover {
   align-items: center;
   position: relative;
   background-size: 100%;
-  transition: all 0.2s ease;
+  transition: all 0.4s ease;
 }
 
 .projectThumb:hover {
-  background-size: 130%;
+  background-size: 110%;
 }
 
 .overlay {
@@ -300,6 +291,28 @@ nav li:hover {
 }
 
 /* ============================================= */
+/*            wholeHouseReno.html                */
+/* ============================================= */
+
+.headingImage {
+  background-image: url("../img/rsz_senatorext1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 65%;
+  width: 100%;
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.headingImage h1 {
+  font-size: 2.5em;
+  color: white;
+  align-self: center;
+}
+
+/* ============================================= */
 /*               Media Queries                   */
 /* ============================================= */
 
@@ -334,7 +347,6 @@ nav li:hover {
     font-size: 0.8em;
   }
 
-  .headingImage,
   .secondImageBanner {
     height: 300px;
   }
@@ -400,10 +412,6 @@ nav li:hover {
 }
 
 @media (min-width: 992px) {
-  .headingImage {
-    height: 500px;
-  }
-
   nav li {
     margin-right: 30px;
   }
