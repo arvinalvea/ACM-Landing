@@ -51,9 +51,9 @@ nav li:hover {
   min-height: 50px;
 }
 
-.slide-content .scroller {
+/* .slide-content .scroller {
   width: 1024px;
-}
+} */
 
 /* .carousel-inner {
   width: 100%;
@@ -104,6 +104,9 @@ nav li:hover {
 }
 
 .ownerHighlight {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
   background-color: #1d1d1d;
   width: 100%;
   height: 80vh;
@@ -294,7 +297,7 @@ nav li:hover {
 @media (min-width: 438px) {
   .ownerHighlight {
     background-color: #1d1d1d;
-    height: 70vh;
+    height: 60vh;
   }
 
   .carousel-item {
