@@ -176,10 +176,6 @@ nav li:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 1s ease;
-}
-
-.projectThumb:hover {
 }
 
 .projectThumb a {
