@@ -4,7 +4,7 @@
 }
 
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
   padding-top: 5em;
 }
 
@@ -109,7 +109,7 @@ nav li:hover {
   justify-content: center;
   background-color: #1d1d1d;
   width: 100%;
-  height: 80vh;
+  height: 440px;
 }
 
 .ownerPhoto {
@@ -132,21 +132,21 @@ nav li:hover {
 }
 
 .quote h3 {
-  font-size: 1em;
+  font-size: 0.7em;
   color: white;
 }
 
 #ownerName {
   font-family: "gilroy-light", san-serif;
   color: white;
-  font-size: 0.8em;
+  font-size: 0.7em;
 }
 
 #jobTitle {
   font-family: "gilroy-light", san-serif;
   color: #b8b8b8;
-  font-size: 0.8em;
-  line-height: 13px;
+  font-size: 0.7em;
+  line-height: 15px;
 }
 
 .inspirations {
@@ -287,17 +287,22 @@ nav li:hover {
 /*               Media Queries                   */
 /* ============================================= */
 
-@media (min-width: 290px) {
+/* @media (min-width: 290px) {
   .ownerHighlight {
     background-color: #1d1d1d;
-    height: 72vh;
+    height: 75vh;
   }
-}
+} */
 
 @media (min-width: 438px) {
   .ownerHighlight {
-    background-color: #1d1d1d;
-    height: 72vh;
+    height: 500px;
+  }
+
+  .quote h3,
+  #ownerName,
+  #jobTitle {
+    font-size: 1em;
   }
 
   .carousel-item {
@@ -314,7 +319,7 @@ nav li:hover {
 @media (min-width: 768px) {
   .carousel-item {
     width: 100% !important;
-    height: 500px !important;
+    height: 400px !important;
   }
   nav li {
     font-size: 0.8em;
@@ -322,7 +327,7 @@ nav li:hover {
 
   .headingImage,
   .secondImageBanner {
-    height: 450px;
+    height: 300px;
   }
 
   .ownerPhoto {
