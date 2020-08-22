@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="css/fonts.css" />
     <!-- Styles CSS -->
     <link rel="stylesheet" href="css/styles.css" />
-
+    <link rel="stylesheet" href="css/lightbox.min.css" />
     <title>ACM: Whole House Renovations</title>
   </head>
   <body>
@@ -43,18 +43,43 @@
     <div class="container">
       <div class="gallery">
         <figure class="gallery__item gallery__item--1">
-          <img
-            src="img/SenatorReesorExtB4.jpg"
-            class="gallery__img"
-            alt="Image 1"
-          />
+          <a
+            href="img/SenatorReesorExtB4.jpg"
+            data-lightbox="gallery"
+            data-title="Before"
+          >
+            <img
+              src="img/SenatorReesorExtB4.jpg"
+              alt="Bales in straw fields"
+              class="gallery__img"
+            />
+          </a>
+
+          <!-- <img
+              src="img/SenatorReesorExtB4.jpg"
+              class="gallery__img"
+              alt="Image 1"
+            /> -->
         </figure>
+
         <figure class="gallery__item gallery__item--2">
-          <img
+          <a
+            href="img/rsz_senatorext1.jpg"
+            data-lightbox="gallery"
+            data-title="After"
+          >
+            <img
+              src="img/rsz_senatorext1.jpg"
+              alt="Bales in straw fields"
+              class="gallery__img"
+            />
+          </a>
+
+          <!-- <img
             src="img/rsz_senatorext1.jpg"
             class="gallery__img"
             alt="Image 2"
-          />
+          /> -->
         </figure>
         <figure class="gallery__item gallery__item--3">
           <img src="img/N3539869_5.jpg" class="gallery__img" alt="Image 3" />
@@ -112,6 +137,7 @@
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
       crossorigin="anonymous"
     ></script>
+    <script src="js/lightbox.min.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
       integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
