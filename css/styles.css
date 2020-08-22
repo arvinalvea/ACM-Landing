@@ -97,8 +97,7 @@ nav li:hover {
 }
 
 .ownerPhoto {
-  /* background-image: url("../img/man (1).png"); */
-  background-image: url("../img/9649CA11-7BA1-4601-91BE-B0184C5D6F74-782DA654-3EAB-4D90-8BB2-FB32A1DDCA42.jpg");
+  background-image: url("../img/marco-colangelo.jpg");
   background-size: contain;
   /* background-repeat: no-repeat; */
   background-position: center;
@@ -219,7 +218,7 @@ nav li:hover {
 }
 
 .secondImageBanner {
-  background-image: url("../img/homeSink1.jpg");
+  background-image: url("../img/senator-reesor-kitchen-sink.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 87%;
@@ -269,7 +268,7 @@ nav li:hover {
 }
 
 #wholeHouseReno {
-  background-image: url("../img/rsz_senatorext1.jpg");
+  background-image: url("../img/senator-reesor-whole-house-ext.jpg");
 }
 
 #homeAddition {
@@ -277,12 +276,12 @@ nav li:hover {
 }
 
 #bathrooms {
-  background-image: url("../img/tub1.jpg");
+  background-image: url("../img/free-standing-tub.jpg");
   background-position: 50% 65%;
 }
 
 #kitchens {
-  background-image: url("../img/rsz_kitchen2.jpg");
+  background-image: url("../img/renovated-kitchen.jpg");
 }
 
 .projectThumb p {
@@ -533,7 +532,7 @@ body {
 /* ============================================= */
 
 .headingImage {
-  background-image: url("../img/rsz_senatorext1.jpg");
+  background-image: url("../img/senator-reesor-whole-house-ext.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 65%;
