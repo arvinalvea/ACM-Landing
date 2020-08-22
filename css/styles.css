@@ -620,3 +620,17 @@ body {
   grid-row-start: 11;
   grid-row-end: 13;
 }
+
+.gallery__item--9 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 13;
+  grid-row-end: 13;
+}
+
+.gallery__item--10 {
+  grid-column-start: 9;
+  grid-column-end: 5;
+  grid-row-start: 13;
+  grid-row-end: 13;
+}
