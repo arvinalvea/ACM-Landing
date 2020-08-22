@@ -10,7 +10,7 @@ body {
 }
 
 body {
-  padding-top: 35px;
+  padding-top: 60px;
 }
 
 nav > ul > a:hover {
@@ -548,6 +548,7 @@ body {
   font-size: 1.5em;
   color: white;
   align-self: center;
+  margin-bottom: 0px !important;
 }
 
 .gallery {
@@ -556,6 +557,11 @@ body {
   grid-template-rows: repeat(8, 5vw);
   grid-gap: 15px;
   margin-top: 40px;
+}
+
+.lb-caption,
+.lb-number {
+  font-family: "gilroy-light", san-serif;
 }
 
 .gallery__img {
