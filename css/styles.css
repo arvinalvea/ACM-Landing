@@ -815,10 +815,10 @@ body {
 }
 
 .bathroomsImg-7 {
-  grid-column-start: 1 !important;
-  grid-column-end: 9 !important;
-  grid-row-start: 11 !important;
-  grid-row-end: 11 !important;
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 11;
+  grid-row-end: 11;
 }
 
 /* ============================================= */
