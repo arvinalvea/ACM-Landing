@@ -389,8 +389,8 @@ nav li:hover {
   }
 
   .contactBannerImg {
-    height: 150px;
-    max-width: 250px;
+    height: 130px;
+    width: 20%;
     margin-right: 10px;
     align-self: center;
   }
