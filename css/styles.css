@@ -528,9 +528,29 @@ body {
 }
 
 /* ============================================= */
+/*            Projects Styles                    */
+/* ============================================= */
+
+.headingImage {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 65%;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+}
+
+/* ============================================= */
 /*            wholeHouseReno.html                */
 /* ============================================= */
 
+#wholeHouseHeadingImage {
+  background-image: url("../img/senator-reesor-whole-house-ext.jpg");
+}
+/* 
 .headingImage {
   background-image: url("../img/senator-reesor-whole-house-ext.jpg");
   background-size: cover;
@@ -542,7 +562,7 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   align-content: center;
-}
+} */
 
 .headingImage h1 {
   font-size: 1.5em;
@@ -740,4 +760,12 @@ body {
     grid-row-start: 10;
     grid-row-end: 13;
   }
+}
+
+/* ============================================= */
+/*            houseAddition.html                */
+/* ============================================= */
+
+#houseAdditionHeadingImage {
+  background-image: url("../img/rsz_saugaextshot2.jpg");
 }
