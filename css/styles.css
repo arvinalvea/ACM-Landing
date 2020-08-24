@@ -814,6 +814,13 @@ body {
   background-position: 50% 65%;
 }
 
+.bathroomsImg-7 {
+  grid-column-start: 1 !important;
+  grid-column-end: 9 !important;
+  grid-row-start: 11 !important;
+  grid-row-end: 11 !important;
+}
+
 /* ============================================= */
 /*         bathrooms.html Media Queries          */
 /* ============================================= */
