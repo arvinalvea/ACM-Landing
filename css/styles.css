@@ -774,14 +774,14 @@ body {
     grid-column-start: 3;
     grid-column-end: 7;
     grid-row-start: 1;
-    grid-row-end: 6;
+    grid-row-end: 5;
   }
 
   .houseAdditionImg-3 {
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 4;
-    grid-row-end: 7;
+    grid-row-end: 9;
   }
 
   .houseAdditionImg-4 {
@@ -792,15 +792,15 @@ body {
   }
 
   .houseAdditionImg-5 {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 7;
-    grid-row-end: 10;
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
   }
 
   .houseAdditionImg-6 {
-    grid-column-start: 4;
-    grid-column-end: 9;
-    grid-row-start: 6;
-    grid-row-end: 10;
+    grid-column-start: 3;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 9;
   }
