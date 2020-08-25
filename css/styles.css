@@ -288,6 +288,10 @@ nav li:hover {
   background-image: url("../img/repairs/crown-molding-before.jpeg");
 }
 
+#concrete {
+  background-image: url("../img/concrete/concrete-main-after.jpg");
+}
+
 .projectThumb p {
   color: white;
   font-size: 2.5em;
@@ -963,4 +967,46 @@ body {
   grid-column-end: 9;
   grid-row-start: 6;
   grid-row-end: 9;
+}
+
+/* ============================================= */
+/*            concrete.html                */
+/* ============================================= */
+
+#concreteHeadingImage {
+  background-image: url("../img/concrete/concrete-main-after.jpg");
+}
+
+/* ============================================= */
+/*       concrete.html Media Queries             */
+/* ============================================= */
+
+@media (min-width: 992px) {
+  .concreteImg-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 6;
+  }
+
+  .concreteImg-2 {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 7;
+  }
+
+  .concreteImg-3 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+  .concreteImg-4 {
+    grid-column-start: 6;
+    grid-column-end: 9;
+    grid-row-start: 9;
+    grid-row-end: 5;
+  }
 }
