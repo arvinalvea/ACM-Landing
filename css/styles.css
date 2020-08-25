@@ -284,6 +284,10 @@ nav li:hover {
   background-image: url("../img/renovated-kitchen.jpg");
 }
 
+#repairs {
+  background-image: url("../img/repairs/crown-molding-before.jpeg");
+}
+
 .projectThumb p {
   color: white;
   font-size: 2.5em;
@@ -944,4 +948,19 @@ body {
     grid-row-start: 5;
     grid-row-end: 9;
   }
+}
+
+/* ============================================= */
+/*            repairs.html                */
+/* ============================================= */
+
+#repairsHeadingImage {
+  background-image: url("../img/repairs/crown-molding-before.jpeg");
+}
+
+.repairsImg-3 {
+  grid-column-start: 1;
+  grid-column-end: 9;
+  grid-row-start: 6;
+  grid-row-end: 9;
 }
