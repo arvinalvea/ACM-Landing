@@ -180,6 +180,7 @@ nav a:hover {
 
 .projectThumb:hover {
   background-size: 110%;
+  text-decoration: none;
 }
 
 .overlay {
