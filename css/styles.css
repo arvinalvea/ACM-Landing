@@ -298,6 +298,10 @@ nav a:hover {
   background-image: url("../img/concrete/concrete-main-after.jpg");
 }
 
+#exterior {
+  background-image: url("../img/exterior/exterior-1.jpg");
+}
+
 .projectThumb p {
   color: white;
   font-size: 2.5em;
@@ -651,6 +655,20 @@ body {
   grid-column-end: 5;
   grid-row-start: 13;
   grid-row-end: 13;
+}
+
+.gallery__item--11 {
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 14;
+  grid-row-end: 14;
+}
+
+.gallery__item--12 {
+  grid-column-start: 9;
+  grid-column-end: 5;
+  grid-row-start: 14;
+  grid-row-end: 14;
 }
 
 /* ============================================= */
