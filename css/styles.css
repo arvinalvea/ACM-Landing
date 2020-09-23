@@ -274,32 +274,32 @@ nav a:hover {
 }
 
 #wholeHouseReno {
-  background-image: url("../img/senator-reesor-whole-house-ext.jpg");
+  background-image: url("../img/senator-reesor-whole-house-ext-thumbnail.jpg");
 }
 
 #homeAddition {
-  background-image: url("../img/rsz_saugaextshot2.jpg");
+  background-image: url("../img/rsz_saugaextshot2-thumbnail1.jpg");
 }
 
 #bathrooms {
-  background-image: url("../img/free-standing-tub.jpg");
+  background-image: url("../img/free-standing-tub-thumbnail.jpg");
   background-position: 50% 65%;
 }
 
 #kitchens {
-  background-image: url("../img/renovated-kitchen.jpg");
+  background-image: url("../img/renovated-kitchen-thumbnail.jpg");
 }
 
 #repairs {
-  background-image: url("../img/repairs/crown-molding-before.jpeg");
+  background-image: url("../img/repairs/crown-molding-before-thumbnail.jpeg");
 }
 
 #concrete {
-  background-image: url("../img/concrete/concrete-main-after.jpg");
+  background-image: url("../img/concrete/concrete-main-after-thumbnail.jpg");
 }
 
 #exterior {
-  background-image: url("../img/exterior/exterior-1.jpg");
+  background-image: url("../img/exterior/exterior-1-thumbnail.jpg");
 }
 
 .projectThumb p {
@@ -1032,6 +1032,96 @@ body {
     grid-column-end: 9;
     grid-row-start: 9;
     grid-row-end: 5;
+  }
+}
+
+/* ============================================= */
+/*         exterior.html Media Queries          */
+/* ============================================= */
+
+@media (min-width: 992px) {
+  .exteriorImg-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+
+  .exteriorImg-2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+  .exteriorImg-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 9;
+  }
+
+  .exteriorImg-4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 5;
+    grid-row-end: 9;
+  }
+
+  .exteriorImg-5 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+
+  .exteriorImg-6 {
+    grid-column-start: 9;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 7;
+  }
+
+  .exteriorImg-7 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 5;
+    grid-row-end: 7;
+  }
+
+  .exteriorImg-8 {
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+
+  .exteriorImg-9 {
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+
+  .exteriorImg-10 {
+    grid-column-start: 7;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 9;
+  }
+
+  .exteriorImg-11 {
+    grid-column-start: 8;
+    grid-column-end: 8;
+    grid-row-start: 7;
+    grid-row-end: 9;
+  }
+
+  .exteriorImg-12 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 7;
+    grid-row-end: 9;
   }
 }
 
