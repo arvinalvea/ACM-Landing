@@ -358,6 +358,10 @@ nav a:hover {
     height: 300px;
   }
 
+  .ownerHighlight {
+    height: 495px;
+  }
+
   .ownerPhoto {
     margin-left: 220px;
     margin-top: 50px;
