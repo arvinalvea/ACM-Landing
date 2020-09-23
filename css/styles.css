@@ -319,10 +319,14 @@ nav a:hover {
     height: 540px;
   }
 
-  .quote h3,
+  .quote h3 {
+    font-size: 1rem;
+    margin-bottom: 1em;
+  }
+
   #ownerName,
   #jobTitle {
-    font-size: 1em;
+    font-size: 0.7rem;
   }
 
   .carousel-item {
@@ -375,11 +379,16 @@ nav a:hover {
     left: -250px;
   }
 
-  .quote h3,
+  .quote h3 {
+    font-size: 1.3rem;
+    margin-bottom: 2em;
+  }
+
+  /* .quote h3,
   #ownerName,
   #jobTitle {
     font-size: 0.8em;
-  }
+  } */
 
   .inspirations {
     display: flex;
@@ -456,6 +465,11 @@ nav a:hover {
   .quote {
     top: 45px;
     left: -325px;
+  }
+
+  .quote h3 {
+    font-size: 1.4rem;
+    margin-bottom: 2em;
   }
 
   .contactBannerImg {
