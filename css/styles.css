@@ -98,33 +98,40 @@ nav a:hover {
   justify-content: center;
   background-color: #1d1d1d;
   width: 100%;
-  height: 480px;
+  /* height: 550px; */
 }
 
-.ownerPhoto {
-  background-image: url("../img/marco-colangelo-web.jpg");
-  background-size: contain;
-  /* background-repeat: no-repeat; */
-  background-position: center;
-  border-radius: 10%;
+.container--ownerHighlight {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.container--ownerHighlight img {
   width: 250px;
-  height: 300px;
-  position: relative;
-  margin: 0px auto;
+  grid-row: 1;
+  grid-column: 1/6;
+  margin: 1em auto;
 }
 
 .quote {
-  position: absolute;
-  width: 65%;
-  top: 250px;
-  right: 15px;
-  z-index: 1;
+  grid-column: 1/6;
+  grid-row: 2;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .quote h3 {
-  font-family: "Noto Sans", sans-serif;
-  font-size: 0.8em;
+  font-family: "gilroy-extrabold", san-serif;
+  font-size: 1em;
   color: white;
+  margin: 1em auto;
+  line-height: 1.5;
+  text-align: center;
+}
+
+#end-quote {
+  margin-left: auto;
 }
 
 #ownerName {
@@ -315,20 +322,6 @@ nav a:hover {
 /* ============================================= */
 
 @media (min-width: 438px) {
-  .ownerHighlight {
-    height: 540px;
-  }
-
-  .quote h3 {
-    font-size: 1rem;
-    margin-bottom: 1em;
-  }
-
-  #ownerName,
-  #jobTitle {
-    font-size: 0.7rem;
-  }
-
   .carousel-item {
     height: 375px !important;
   }
@@ -338,14 +331,8 @@ nav a:hover {
   #firstSlide {
     object-position: center;
   }
-
-  .ownerHighlight {
-    height: 450px;
-  }
-
-  .ownerPhoto {
-    width: 100%;
-    background-repeat: repeat;
+  .ownerHighlight img {
+    width: 250px;
   }
 }
 
@@ -358,37 +345,24 @@ nav a:hover {
     font-size: 0.8em;
   }
 
+  .ownerHighlight img {
+    width: 300px;
+    grid-column: 1/2;
+  }
+
   .secondImageBanner {
     height: 300px;
   }
 
-  .ownerHighlight {
-    height: 495px;
-  }
-
-  .ownerPhoto {
-    margin-left: 220px;
-    margin-top: 50px;
-    height: 350px;
-  }
-
   .quote {
     font-size: 1.4em;
-    width: 34%;
-    top: 25px;
-    left: -250px;
+    grid-column: 3/6;
+    grid-row: 1;
   }
 
   .quote h3 {
-    font-size: 1.3rem;
-    margin-bottom: 2em;
-  }
-
-  /* .quote h3,
-  #ownerName,
-  #jobTitle {
     font-size: 0.8em;
-  } */
+  }
 
   .inspirations {
     display: flex;
@@ -446,6 +420,10 @@ nav a:hover {
     object-position: 50% 100%;
   }
 
+  .ownerHighlight img {
+    grid-column: 1/3;
+  }
+
   .hero {
     height: 70vh;
   }
@@ -458,20 +436,6 @@ nav a:hover {
     width: 50%;
   }
 
-  .ownerPhoto {
-    margin-left: 300px;
-  }
-
-  .quote {
-    top: 45px;
-    left: -325px;
-  }
-
-  .quote h3 {
-    font-size: 1.4rem;
-    margin-bottom: 2em;
-  }
-
   .contactBannerImg {
     height: 200px;
     width: 250px;
@@ -479,10 +443,6 @@ nav a:hover {
 }
 
 @media (min-width: 1200px) {
-  .quote {
-    width: 25%;
-  }
-
   .ownerPhoto {
     align-self: center;
   }
